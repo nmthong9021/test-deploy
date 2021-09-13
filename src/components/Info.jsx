@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 import { Link, useHistory } from 'react-router-dom';
 
 export default function Info(props) {
-    console.log("info nè");
+    console.log("info nè...");
     let { store } = useContext(AppContext);
     let { id } = useParams();
     // console.log(id);
