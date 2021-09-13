@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Image, Card, Button, Container } from 'react-bootstrap';
+import { Card, Button, Container } from 'react-bootstrap';
 import AppContext from '../contactAppContext';
 import { useParams } from 'react-router-dom';
 import { Link, useHistory } from 'react-router-dom';

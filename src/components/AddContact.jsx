@@ -1,12 +1,12 @@
 import React, { useContext } from 'react';
-import { Form, Button, Container, Row, Col } from 'react-bootstrap';
+import { Form, Button} from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
 
 import AppContext from '../contactAppContext';
 
 export default function AddContact(props) {
-    const { dispatch, store } = useContext(AppContext);
+    const { dispatch} = useContext(AppContext);
     // console.log("store nè: " + store.cards);
     // console.log("ok add");
 

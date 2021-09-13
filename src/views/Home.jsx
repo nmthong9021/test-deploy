@@ -7,11 +7,10 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Redirect
 } from 'react-router-dom';
 
 import reducer from "../contactAppReducer";
-import { axiosInstance } from "../utils/contactAppUtil";
+//import { axiosInstance } from "../utils/contactAppUtil";
 import AppContext from "../contactAppContext.js";
 import Info from '../components/Info';
 

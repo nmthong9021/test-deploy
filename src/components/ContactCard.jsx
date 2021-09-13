@@ -3,7 +3,7 @@ import { Col, Container, Row, Image, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import AppContext from '../contactAppContext';
-import Info from './Info';
+//import Info from './Info';
 
 export default function ContactCard(props) {
     const { dispatch } = useContext(AppContext);

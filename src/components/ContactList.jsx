@@ -27,7 +27,6 @@ export default function ContactList(props) {
                 store.cards
                     .filter((card) => card.isExist)
                     .map((card) => {
-                        {/* console.log(card.id); */ }
                         return (<div key={card.id}>
                             <ContactCard card={card}></ContactCard>
                             <hr></hr>
